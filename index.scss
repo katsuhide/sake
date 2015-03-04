@@ -1,0 +1,19 @@
+#area {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card {
+  min-width: 300px;
+}
+
+.card.small {
+  height: 450px;
+}
+
+.card.small .card-image {
+  height: 300px;
+}
